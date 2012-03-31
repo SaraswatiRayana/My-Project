@@ -183,7 +183,6 @@ namespace MitraTech.Core
             SqlDataReader reader = null;
             try
             {
-                //dbConnection.Open();
                 reader = dbConnection.ExecuteReader(selectQueryParam);
             }
             catch (SqlException ex)
@@ -273,7 +272,7 @@ namespace MitraTech.Core
             List<SqlParameter> paramCollection = new List<SqlParameter>();
             foreach (ColumnData column in columns)
             {
-                paramCollection.Add(new SqlParameter(column.Name, column.ColumnValue.ToString()));
+                paramCollection.Add(new SqlParameter(column.Name, column.ColumnValue));
             }
 
             return paramCollection;
