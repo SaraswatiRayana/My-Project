@@ -1,12 +1,11 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Data.SqlClient;
-using MitraTech.Core.Model;
-using MitraTech.Core.Mapper;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MitraTech.Core;
+using MitraTech.Core.Mapper;
+using MitraTech.Core.Model;
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+
 
 
 namespace ServiceTest

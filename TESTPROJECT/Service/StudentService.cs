@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using MitraTech.Core;
+﻿using MitraTech.Core;
 using MitraTech.Core.Mapper;
 using MitraTech.Core.Model;
+using System.Collections.Generic;
+
 
 namespace StudentService
 {

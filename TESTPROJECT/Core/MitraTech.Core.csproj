@@ -45,7 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="General.cs" />
     <Compile Include="MapperBase.cs" />

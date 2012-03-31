@@ -1,9 +1,7 @@
-﻿using System;
+﻿using MitraTech.Core.Model;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Data.SqlClient;
-using MitraTech.Core.Model;
+using System.Linq;
 
 namespace MitraTech.Core.Mapper
 {

@@ -1,6 +1,6 @@
-﻿using System.Configuration;
+﻿using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Collections.Generic;
+
 
 
 namespace MitraTech.Core
